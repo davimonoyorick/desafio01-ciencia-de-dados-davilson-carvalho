@@ -1,10 +1,12 @@
+var prompt = require('prompt-sync')()
+
 //Questão 1
 
 let nome = "Davilson";
 console.log(nome);
 
 //Questão 2
-let idade = 25;
+var idade = 25;
 let altura = 1.75;
 console.log(`idade: ${idade} altura: ${altura}`);
 
@@ -31,6 +33,7 @@ if(idade>=18){
 }
 
 //Questão 6
+// lógica incoerente quando o caso de teste for entre 6 e 7
 let nota = 6;
 
 if(nota<0 || nota>10){
@@ -84,7 +87,7 @@ for(let i=0;i<=20;i++){
 }
 
 //Questão 13
-function areCirculo(raio){
+function areaCirculo(raio){
     const pi = 3.14;
 
     return pi*(raio**2);
@@ -104,7 +107,3 @@ function somaNumeros(numero1,numero2){
 }
 
 console.log(somaNumeros(10,20));
-
-
-
-
