@@ -33,14 +33,13 @@ if(idade>=18){
 }
 
 //Questão 6
-// lógica incoerente quando o caso de teste for entre 6 e 7
 let nota = 6;
 
 if(nota<0 || nota>10){
     console.log("Valor fora do intervalo");
 }else if(nota>=7){
     console.log("Aprovado");
-}else if(nota>=5 && nota<=6){
+}else if(nota>5 && nota<6){ //entre 5 e 6
     console.log("Recuperação");
 }else{
     console.log("Reprovado");
@@ -93,7 +92,7 @@ function areaCirculo(raio){
     return pi*(raio**2);
 }
 
-//Questão 14
+//Questão 14 
 let numero1 = 20;  //declarando e inicializando primeria variavel
 let numero2 = 20; //declarando e inicializando segunda variavel
 let resultadoSoma = numero1 + numero2;  //declarando e inicializando váriavel com o valor da soma das variaveis
